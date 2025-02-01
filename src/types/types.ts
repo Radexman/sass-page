@@ -26,3 +26,9 @@ export type plansType = {
   icon: string;
   logo: string;
 };
+
+export type faqType = {
+  id: string;
+  question: string;
+  answer: string;
+};
