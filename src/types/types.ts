@@ -15,3 +15,14 @@ export type detailsType = {
   icon: string;
   title: string;
 };
+
+export type plansType = {
+  id: string;
+  title: string;
+  priceMonthly: number;
+  priceYearly: number;
+  caption: string;
+  features: string[];
+  icon: string;
+  logo: string;
+};
