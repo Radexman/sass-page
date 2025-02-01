@@ -1,5 +1,6 @@
 import { Element } from "react-scroll";
-import FEATURES from "../constants/index";
+import { FEATURES, DETAILS } from "../constants/index";
+import Button from "../components/Button";
 
 const Features = () => {
   return (
@@ -22,8 +23,35 @@ const Features = () => {
                     />
                   </div>
                 </div>
+                <p className="caption max-md:m5 mb-5 max-md:mb-6">{caption}</p>
+                <h2 className="h3 max-md:h5 mb-7 max-w-400 text-p4 max-md:mb-6">
+                  {title}
+                </h2>
+                <p className="body-1 max-md:body-3 mb-11 max-md:mb-8">{text}</p>
+                <Button icon={button.icon}>{button.title}</Button>
               </div>
             ))}
+            <ul className="relative flex flex-grow justify-around rounded-7xl border-2 border-s3 px-[5%] max-md:hidden">
+              <div className="absolute left-0 right-0 top-[38%] z-10 h-[1px] w-full bg-s3/20" />
+
+              {DETAILS.map(({ id, icon, title }) => (
+                <li key={id} className="relative px-4 pb-14 pt-16">
+                  <div className="absolute bottom-0 left-1/2 top-8 z-10 h-full w-[1px] bg-s3/20" />
+
+                  <div className="mx-auto mb-3 flex size-20 items-center justify-center rounded-full border-2 border-s2 shadow-500 transition-all duration-500 hover:border-s4">
+                    <img
+                      src={icon}
+                      alt={title}
+                      className="z-20 size-17/20 object-contain"
+                    />
+                  </div>
+
+                  <h3 className="base-small relative z-2 mx-auto my-0 max-w-36 text-center uppercase">
+                    {title}
+                  </h3>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </Element>

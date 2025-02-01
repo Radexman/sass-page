@@ -9,3 +9,9 @@ export type featureType = {
     title: string;
   };
 };
+
+export type detailsType = {
+  id: string;
+  icon: string;
+  title: string;
+};
