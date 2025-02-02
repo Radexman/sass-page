@@ -32,3 +32,11 @@ export type faqType = {
   question: string;
   answer: string;
 };
+
+export type testimonialsType = {
+  id: string;
+  name: string;
+  role: string;
+  avatarUrl: string;
+  comment: string;
+};

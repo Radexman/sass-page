@@ -27,7 +27,7 @@ const FaqItem = ({
       >
         <div className="flex-1">
           <div className="small-compact mb-1.5 text-p3 max-lg:hidden">
-            {index < 10 ? "0" : ""}
+            {index < 9 ? "0" : ""}
             {index + 1}
           </div>
           <div
