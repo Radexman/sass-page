@@ -40,3 +40,9 @@ export type testimonialsType = {
   avatarUrl: string;
   comment: string;
 };
+
+export type linkType = {
+  id: string;
+  title: string;
+  url: string;
+};

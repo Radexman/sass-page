@@ -4,6 +4,7 @@ import {
   plansType,
   faqType,
   testimonialsType,
+  linkType,
 } from "../types/types";
 
 export const FEATURES: featureType[] = [
@@ -213,5 +214,28 @@ export const TESTIMONIALS: testimonialsType[] = [
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
       "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+  },
+];
+
+export const LINKS: linkType[] = [
+  {
+    id: "0",
+    title: "Ios",
+    url: "#",
+  },
+  {
+    id: "1",
+    title: "Android",
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Windows",
+    url: "#",
+  },
+  {
+    id: "3",
+    title: "Web",
+    url: "#",
   },
 ];
