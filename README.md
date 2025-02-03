@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary
 
-Currently, two official plugins are available:
+This elegant and artistic SaaS landing page is inspired by the design of XORA, a service for AI-powered file editing. The page features a clean and modern layout, focusing on user experience and visual appeal. With subtle, pleasing animations, it creates an engaging atmosphere, inviting visitors to explore the capabilities of the service. Designed to be both functional and visually captivating, this landing page effectively captures the essence of AI-driven innovation while maintaining a user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![XORA Pricing](./src/assets/project-10.png)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🎨 **Modern Layout**: Clean, visually pleasing design focused on user experience.
+- ✨ **Subtle Animations**: Interactive animations that enhance user engagement.
+- 🤖 **AI-Powered Service Showcase**: Highlights the core functionality of AI-driven file editing.
+- 📱 **Responsive Design**: Optimized for various screen sizes and devices.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- ⚛️ **Frontend**: React, TypeScript, JavaScript
+- 🎨 **Styling**: Tailwind CSS
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Demo
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+View the live demo of the SaaS Landing Page at:  
+[https://sass-page-001.netlify.app/](https://sass-page-001.netlify.app/)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Radexman/sass-page.git
+   ```
