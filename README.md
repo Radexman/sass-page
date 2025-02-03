@@ -21,10 +21,6 @@ This elegant and artistic SaaS landing page is inspired by the design of XORA, a
 View the live demo of the SaaS Landing Page at:  
 [https://sass-page-001.netlify.app/](https://sass-page-001.netlify.app/)
 
-## Project Image
-
-![SaaS Landing Page](src/assets/project-10.png)
-
 ## How to Run Locally
 
 1. Clone the repository:
