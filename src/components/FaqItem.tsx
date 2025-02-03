@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import { useState } from "react";
-import { ScrollElement } from "react-scroll";
 import "react-slidedown/lib/slidedown.css";
 import { faqType } from "../types/types";
 
@@ -48,9 +47,9 @@ const FaqItem = ({
           <div className="g4 size-11/12 rounded-full shadow-300" />
         </div>
       </div>
-      <ScrollElement>
+      <div>
         {activeId === id && <div className="body-3 px-7 py-3.5">{answer}</div>}
-      </ScrollElement>
+      </div>
       <div
         className={clsx(
           "g5 absolute -bottom-7 -top-7 left-0 right-0 -z-1 rounded-3xl opacity-0 transition-opacity duration-500",
