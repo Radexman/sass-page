@@ -46,3 +46,11 @@ export type linkType = {
   title: string;
   url: string;
 };
+
+export type logoType = {
+  id: string;
+  title: string;
+  url: string;
+  width: number;
+  height: number;
+};

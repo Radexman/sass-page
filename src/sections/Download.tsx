@@ -1,6 +1,6 @@
 import { Ios, Android, Web, Windows } from "../icons/icons";
 import { Element } from "react-scroll";
-import { LINKS } from "../constants";
+import { LINKS, LOGOS } from "../constants";
 import Marker from "../components/Marker";
 
 const Download = () => {
@@ -78,6 +78,13 @@ const Download = () => {
               </div>
             </div>
           </div>
+          <ul>
+            {LOGOS.map(({ id, title, url, width, height }) => (
+              <li key={id}>
+                <img src={url} alt={title} width={width} height={height} />
+              </li>
+            ))}
+          </ul>
         </div>
       </Element>
     </section>
