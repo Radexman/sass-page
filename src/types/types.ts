@@ -54,3 +54,10 @@ export type logoType = {
   width: number;
   height: number;
 };
+
+export type socialType = {
+  id: string;
+  title: string;
+  icon: string;
+  url: string;
+};

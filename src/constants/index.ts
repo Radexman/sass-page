@@ -6,6 +6,7 @@ import {
   testimonialsType,
   linkType,
   logoType,
+  socialType,
 } from "../types/types";
 
 export const FEATURES: featureType[] = [
@@ -275,6 +276,33 @@ export const LOGOS: logoType[] = [
     title: "Drips",
     url: "/images/logos/drips.svg",
     width: 77,
-    height: 48
+    height: 48,
+  },
+];
+
+export const SOCIALS: socialType[] = [
+  {
+    id: "0",
+    title: "x",
+    icon: "/images/socials/x.svg",
+    url: "#",
+  },
+  {
+    id: "1",
+    title: "Threads",
+    icon: "/images/socials/threads.svg",
+    url: "#",
+  },
+  {
+    id: "2",
+    title: "Instagram",
+    icon: "images/socials/instagram.svg",
+    url: "#",
+  },
+  {
+    id: "3",
+    title: "Discord",
+    icon: "/images/socials/discord.svg",
+    url: "#",
   },
 ];
